@@ -55,7 +55,7 @@ public class SignUpController extends HttpServlet {
 		// int 반환
 		
 		// 4단계
-		// Attribute : key : value 세트로 뭈어서 값을 담을 수 있음
+		// Attribute : key : value 세트로 묶어서 값을 담을 수 있음
 		request.setAttribute("user", user);
 		request.setAttribute("message","요청 처리에 성공했습니다.");
 		
